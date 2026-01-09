@@ -23,7 +23,7 @@ public class Book {
     private Boolean available;
 
     @Column(name = "created_at")
-    private LocalDateTime createdAt;
+    private LocalDateTime createdAt = LocalDateTime.now();
 
     // ===== GETTERS =====
 
